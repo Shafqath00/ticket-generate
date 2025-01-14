@@ -81,7 +81,7 @@ async function generateTicket(name, email, github, uploadedImagePath, patternPat
   ctx.drawImage(pattern, 0, 0, width, height);
 
   // Add Text
-  ctx.fillStyle = "#ffffff";
+  ctx.fillStyle = "#000";
   ctx.font = "25px Arial";
   // const logo = loadImage("assets/logo-full.png");
   // ctx.drawImage(logo,50,50,100,100);
